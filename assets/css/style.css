@@ -48,7 +48,7 @@ a:hover { color: var(--accent-strong); }
   display: flex; align-items: center; gap: 10px;
   font-family: var(--font-heading); font-weight: 600; font-size: 1.08rem; color: var(--text);
 }
-.brand img { width: 36px; height: 36px; }
+.brand img { height: 40px; width: auto; }
 
 main {
   flex: 1;
@@ -62,9 +62,8 @@ main {
 }
 .stamp {
   display: block;
-  width: 128px; height: 128px;
-  margin: 0 auto 28px;
-  filter: drop-shadow(0 6px 18px rgba(43, 33, 23, 0.15));
+  width: 240px; max-width: 70%; height: auto;
+  margin: 0 auto 24px;
 }
 .badge {
   margin-top: 0;

@@ -12,7 +12,8 @@ index.html               Coming-soon page
 .nojekyll                Tells GitHub Pages to serve the files as-is
 robots.txt               Lets search engines index the site
 assets/css/style.css     All styling — colors/fonts are CSS variables at the top
-assets/images/mark.svg   The bird logo (also used as the browser-tab icon)
+assets/images/logo.png   The bird-in-nest logo (header + main logo)
+assets/images/favicon.png / apple-touch-icon.png   Browser-tab and phone home-screen icons
 ```
 
 ## Quick edits
