@@ -36,9 +36,12 @@
       website are on the way. Check back soon.
     </p>
     <div class="rule" aria-hidden="true">✦</div>
-    <!-- CONTACT EMAIL: change the address after "mailto:" below -->
-    <a class="btn" href="mailto:support@baldwinterneypress.com?subject=Vintage%20Bird%20Press%20%E2%80%94%20Let%20me%20know%20when%20you%20launch">✉️ Tell me when you launch</a>
-    <p class="note">We'll send one note when the doors open.</p>
+    <!-- MAILERLITE SIGNUP: form "Vintage Bird Press Signup" → group
+         "Vintage Bird Press Subscribers". To swap forms, change data-form below. -->
+    <div class="signup-form-wrap">
+      <div class="ml-embedded" data-form="QzDSPi"></div>
+    </div>
+    <p class="note">Join the list and we'll send a note when the doors open.</p>
   </section>
 </main>
 
@@ -46,6 +49,14 @@
   <p>© <span id="year">2026</span> Vintage Bird Press</p>
 </footer>
 
+<!-- MailerLite Universal (account 2635532 — same account as BTP and Cyber Elementary) -->
+<script>
+  (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+  .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+  n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+  (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+  ml('account', '2635532');
+</script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
