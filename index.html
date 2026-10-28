@@ -9,6 +9,12 @@
 <meta property="og:site_name" content="Vintage Bird Press" />
 <meta property="og:title" content="Vintage Bird Press — Coming Soon" />
 <meta property="og:description" content="Vintage Bird Press is a new book publisher. Our website is coming soon." />
+<meta property="og:url" content="https://www.vintagebirdpress.com/" />
+<meta property="og:image" content="https://www.vintagebirdpress.com/assets/images/logo.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Vintage Bird Press — Coming Soon" />
+<meta name="twitter:description" content="Vintage Bird Press is a new book publisher. Our website is coming soon." />
+<meta name="twitter:image" content="https://www.vintagebirdpress.com/assets/images/logo.png" />
 <link rel="icon" type="image/png" href="assets/images/favicon.png" />
 <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,9 +26,13 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
-  <div class="brand">
-    <img src="assets/images/logo.png" alt="" />
-    Vintage Bird Press
+  <div class="header-inner">
+    <div class="brand">
+      <img src="assets/images/logo.png" alt="" />
+      Vintage Bird Press
+    </div>
+    <!-- SHARE BUTTON: opens the share popup. Wording/address live in assets/js/share.js -->
+    <button type="button" class="share-btn" data-share-open aria-haspopup="dialog" aria-label="Share this site">📤<span class="share-label"> Share</span></button>
   </div>
 </header>
 
@@ -47,6 +57,7 @@
 
 <footer class="site-footer">
   <p>© <span id="year">2026</span> Vintage Bird Press</p>
+  <button type="button" class="share-btn footer-share" data-share-open aria-haspopup="dialog">📤 Share this site</button>
 </footer>
 
 <!-- MailerLite Universal (account 2635532 — same account as BTP and Cyber Elementary) -->
@@ -57,6 +68,7 @@
   (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
   ml('account', '2635532');
 </script>
+<script src="assets/js/share.js"></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
